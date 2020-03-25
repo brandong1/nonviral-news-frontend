@@ -18,7 +18,7 @@ function showArticle(articles) {
     newArticle.append(byLine)
 
     const image = document.createElement('img')
-    image.innerHTML = `<img src='${article.url_image}'>`
+    image.src = article.url_image
     newArticle.append(image)
 
     const description = document.createElement('p')
