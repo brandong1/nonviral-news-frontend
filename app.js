@@ -13,18 +13,21 @@ function showArticle(articles) {
     title.innerText = article.title
     newArticle.append(title)
 
-    const byLine = document.createElement('address')
+    const byLine = document.createElement("address")
     byLine.innerHTML = `By: ${article.author}, <a href='${article.source_url}'target="_blank">${article.source}</a>`
     newArticle.append(byLine)
 
-    const image = document.createElement('img')
-    image.src = article.url_image
-    newArticle.append(image)
+    const imageLink = document.createElement("a")
+    imageLink.href = article.source_url
+    imageLink.target = "_blank"
+    newArticle.append(imageLink)
 
-    const description = document.createElement('p')
+    const image = document.createElement("img")
+    image.src = article.url_image
+    imageLink.append(image)
+
+    const description = document.createElement("p")
     description.innerText = article.description
     newArticle.append(description)
-
-
   })
 }

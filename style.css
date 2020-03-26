@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* END OF MEYER CSS RESET */
+
+/* LAYOUT DESIGN TOOL */
+
+/* * {
+  border: 1px solid red;
+} */
+
+/* GENERAL STYLING*/
+
+body {
+  background-color: #f5f5f5;
+}
+
+main {
+  display: flex;
+}
+
+.left-sidebar,
+.right-sidebar {
+  width: 25vw;
+}
+
+/*NEWS FEED*/
+
+#news-feed {
+  width: 50vw;
+  font-family: "Roboto", sans-serif;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  box-shadow: 0 0 10.5px -6.5px rgba(0, 0, 0, 0.5);
+  background-color: hsl(0, 0%, 99%);
+  color: hsl(0, 0%, 24%);
+}
+
+article + article {
+  margin-top: 3rem;
+}
+
+article > h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+
+article > h2,
+article > address {
+  padding-left: 2rem;
+}
+
+address {
+  font-style: italic;
+  padding-top: 1rem;
+  color: hsl(0, 0%, 34%);
+  font-weight: 300;
+}
+
+article > a {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 33rem;
+  padding-top: 3rem;
+  align-self: center;
+}
+
+p {
+  align-self: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: 300;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Spectral SC", serif;
+  font-size: xx-large;
+  color: hsl(0, 0%, 24%);
+}
+
+.header h1 {
+  font-size: 4.5vw;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.header h4 {
+  font-size: 1rem;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  padding-bottom: 4rem;
+}
