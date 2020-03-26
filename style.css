@@ -133,7 +133,7 @@ table {
 /* LAYOUT DESIGN TOOL */
 
 /* * {
-  border: 1px solid red;
+  border: 5px solid red;
 } */
 
 /* GENERAL STYLING*/
@@ -162,7 +162,7 @@ article {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  box-shadow: 0 0 10.5px -6.5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10.5px -6.5px hsl(0, 0%, 20%);
   background-color: hsl(0, 0%, 99%);
   color: hsl(0, 0%, 24%);
 }
