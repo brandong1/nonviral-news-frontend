@@ -148,13 +148,13 @@ main {
 
 .left-sidebar,
 .right-sidebar {
-  width: 25vw;
+  width: 30vw;
 }
 
 /*NEWS FEED*/
 
 #news-feed {
-  width: 50vw;
+  width: 40vw;
   font-family: "Roboto", sans-serif;
 }
 
