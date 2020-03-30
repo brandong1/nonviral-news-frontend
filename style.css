@@ -242,6 +242,14 @@ p {
     padding-top: 1rem;
   }
 }
+
+.goodbye {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 2.4rem;
+  padding-right: 0rem;
+}
 /* HEADER */
 .header {
   display: flex;
