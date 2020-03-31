@@ -232,6 +232,18 @@ p {
   font-weight: 300;
 }
 
+.goodbye {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 2.4rem;
+  padding-right: 0rem;
+}
+
+.goodbye2 {
+  padding-top: 0.5rem;
+}
+
 @media (max-width: 500px) {
   img {
     max-width: 13rem;
@@ -241,15 +253,11 @@ p {
     font-size: 71%;
     padding-top: 1rem;
   }
+  .goodbye {
+    font-size: 60%;
+  }
 }
 
-.goodbye {
-  display: flex;
-  justify-content: center;
-  font-family: "Roboto", sans-serif;
-  padding-top: 2.4rem;
-  padding-right: 0rem;
-}
 /* HEADER */
 .header {
   display: flex;
@@ -306,6 +314,10 @@ footer > a {
 footer > p {
   padding-top: 4rem;
   padding-bottom: 1rem;
+}
+
+p > a {
+  color: #f5f5f5;
 }
 
 @media (max-width: 500px) {
