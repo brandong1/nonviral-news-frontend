@@ -1,4 +1,4 @@
-fetch("http://localhost:3000/articles")
+fetch("https://nonviral-times-backend.herokuapp.com/articles")
   .then(response => response.json())
   .then(articles => showArticle(articles))
 
