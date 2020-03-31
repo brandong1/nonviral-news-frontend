@@ -191,10 +191,14 @@ article > h2 {
 @media (max-width: 500px) {
   article > h2 {
     font-size: 1rem;
+    padding-top: 1rem;
   }
   article > address {
     font-size: 50%;
     padding-top: 0.5rem;
+  }
+  article + article {
+    margin-top: 1.5rem;
   }
 }
 
@@ -252,6 +256,7 @@ p {
   p {
     font-size: 71%;
     padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   .goodbye {
     font-size: 60%;
