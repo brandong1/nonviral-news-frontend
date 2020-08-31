@@ -35,14 +35,12 @@ Visit <a href="http://www.nonviraltimes.com">www.nonviraltimes.com</a>
 or...
 
 1. Navigate to desired filepath for this app in terminal.
-2. Fork (optional) and clone down the project backend by running the line below in terminal:
+2. Fork and clone down the project frontend by running the line below in terminal:
 
-   `git@github.com:m-delarosa/nonviral-news-backend.git`
+   `git clone git@github.com:m-delarosa/nonviral-news-frontend.git`
+3. Fork and clone down the project backend by running the line below in terminal:
 
-3. Run the following command
-4. Fork (optional) and clone down the project backend by running the line below in terminal:
-
-   `https://github.com/brandong1/nonviral-news-frontend`
+   `git clone https://github.com/brandong1/nonviral-news-backend`
 
 ## API Reference
 
