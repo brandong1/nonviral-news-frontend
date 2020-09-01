@@ -6,7 +6,7 @@ A coronavirus free news source.
 
 ## Motivation
 
-It's 2020, and the coronavirus has seemingly affected every aspect of our lives. For those who would like to take a mental break from the virus we created "The Nonviral Times." The Nonviral Times is a news source that is devoid of any coronavirus related news. Showing how the world continues move on outside of this pandemic. It accomplishes this by making a call to the "News API," returning all articles published in the last 48 hours and parses out any articles that mention keywords such as "coronavirus", "COVID-19", "quarantine," or "pandemic." Insuring the user a coranavirus free experience.
+It's 2020, and the coronavirus has seemingly affected every aspect of our lives. For those who would like to take a mental break from the virus we created "The Nonviral Times." The Nonviral Times is a news source that is devoid of any coronavirus related news. Showing how the world continues move on outside of this pandemic. It accomplishes this by making a call to the "News API," returning all articles published in the last 48 hours and parses out any articles that mention keywords such as "coronavirus", "COVID-19", "quarantine," or "pandemic." This insures the user a coranavirus free experience.
 
 ## Build status
 
@@ -26,7 +26,7 @@ Iteration 0 deployed. Visit <a href="http://www.nonviraltimes.com">www.nonviralt
 
 - Generates up 100 "coronavirus free" articles from various new sources in a user-friendly format.
 - Desktop and mobile friendly.
-- User can click on source name or article's image to open a new tab with the article.
+- User can click on the source name or the article's image to open a new tab with the article.
 
 ## Installation & Use
 
